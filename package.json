@@ -1,0 +1,16 @@
+{
+  "title": "My Teams",
+  "name": "myteams",
+  "version": "0.0.1",
+  "description": "Scoreboard of sports teams",
+  "main": "index.js",
+  "author": "Dong Kyu (Jason) Kim",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
