@@ -15,7 +15,7 @@ var button = ToggleButton({
 });
 
 var panel = panels.Panel({
-	contentURL: "http://www.naver.com",
+	contentURL: self.data.url("../index.html"),
 	onHide: handleHide
 });
 

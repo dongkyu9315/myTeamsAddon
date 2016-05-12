@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="author" content="dongkyu9315@gmail.com, Dong Kyu (Jason) Kim" />
+	<meta name="copyright" content="Copyright 2016 Dong Kyu (Jason) Kim" />
+</head>
+<body ng-controller="UrlController">
+	<table class="table table-striped">
+		<tr class="container-fluid" ng-repeat="x in teams" ng-click="openPage($index)">
+			<td>{{x.name + " in " + x.league}}</td>
+		</tr>
+	</table>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="node_modules/angular/angular.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
